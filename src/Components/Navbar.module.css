@@ -1,0 +1,102 @@
+.navBar {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navOpen {
+  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#fccfa6, #fe97a4);
+  flex-direction: column;
+  align-items: center;
+}
+
+.navLink {
+  display: flex;
+  font-size: 2em;
+  font-weight: 400;
+  color: #000000;
+  padding-top: 90px;
+}
+
+.navLink:hover {
+  cursor: pointer;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+@media (min-width: 800px) {
+  .logo {
+    font-size: 1.5em;
+  }
+  .navBar {
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+  }
+  .linksContainer {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .navLink {
+    font-weight: 400;
+    padding-top: 4px;
+    font-size: 1.4em;
+    transition: 0.5s;
+  }
+  .navLink:hover {
+    font-size: 1.5em;
+  }
+  .navOnScroll {
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    background-color: #e0e0e0;
+  }
+}
+
+.navOnScroll {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e0e0e0;
+  opacity: 0.8;
+}
+
+.contactLink {
+  color: #000000;
+  display: flex;
+  font-size: 1.5em;
+  font-weight: 400;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  padding: 3px;
+}

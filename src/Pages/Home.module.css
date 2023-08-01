@@ -1,0 +1,56 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px 250px;
+  align-items: center;
+}
+
+.tittleContainer {
+  padding-top: 75px;
+}
+
+.home p {
+  font-size: 2em;
+  color: #000000;
+}
+
+.callToAction {
+  color: #000000;
+  text-decoration: none;
+  background-color: #e0e0e0;
+  padding: 15px;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+
+.callToAction:hover {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.callToActionContainer {
+  padding-top: 750px;
+}
+
+@media screen and (max-width: 768px) {
+  .callToActionContainer {
+    padding-top: 350px;
+  }
+
+  .home {
+    padding: 40px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home {
+    padding: 20px 10px;
+  }
+  .callToActionContainer {
+    padding-top: 150px;
+  }
+}

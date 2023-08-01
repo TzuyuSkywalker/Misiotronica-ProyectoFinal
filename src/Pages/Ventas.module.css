@@ -1,0 +1,89 @@
+.ventas {
+  padding: 200px;
+  text-align: center;
+  background: linear-gradient(180deg, #fe97a4, #fccfa6);
+}
+
+.tittle {
+  font-size: 2em;
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 15px 10px;
+  margin: auto;
+  opacity: 90%;
+  border-radius: 90px;
+  width: fit-content;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.item {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  height: 400px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+}
+
+.card h3 {
+  margin-top: 10px;
+}
+
+.comprarButton {
+  background-color: #e0e0e0;
+  color: #000000;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: calc(100% - 20px);
+  }
+}

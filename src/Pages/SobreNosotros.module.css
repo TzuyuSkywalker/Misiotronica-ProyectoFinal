@@ -1,0 +1,21 @@
+.sobreNosotros {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 260px;
+  flex-direction: column;
+  background: linear-gradient(180deg, #fe97a4, #fccfa6);
+}
+
+.tittle {
+  font-size: 2em;
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 15px;
+  margin: auto;
+  opacity: 90%;
+  border-radius: 90px;
+}
