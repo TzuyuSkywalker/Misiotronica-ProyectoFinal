@@ -94,7 +94,8 @@ const Navbar = () => {
                 to={link}
                 onClick={() => setNavBarOpen(false)}
                 className={styles.navLink}
-                activeClassName={styles.activeNavLink}
+                activeclassname={styles.activeNavLink}
+                key={id}
               >
                 {text}
               </NavLink>
@@ -111,7 +112,8 @@ const Navbar = () => {
                 to={link}
                 onClick={() => setNavBarOpen(false)}
                 className={styles.navLink}
-                activeClassName={styles.activeNavLink}
+                activeclassname={styles.activeNavLink}
+                key={id}
               >
                 {text}
               </NavLink>

@@ -14,19 +14,17 @@ const Home = () => {
       <div className={styles.callToActionContainer}>
         <NavLink
           to={"Contacto"}
-          smooth
-          duration={500}
+          smooth="true"
           className={styles.callToAction}
-          activeClassName={styles.activeNavLink}
+          activeclassname={styles.activeNavLink}
         >
           Obtener Asesoramiento
         </NavLink>
         <NavLink
           to={"Contacto"}
-          smooth
-          duration={500}
+          smooth="true"
           className={styles.callToAction}
-          activeClassName={styles.activeNavLink}
+          activeclassname={styles.activeNavLink}
         >
           Pedir un Presupuesto
         </NavLink>

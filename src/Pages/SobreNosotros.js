@@ -26,7 +26,7 @@ const SobreNosotros = () => {
     <div name="SobreNosotros" className={styles.sobreNosotros}>
       <h2 className={styles.tittle}>Sobre Nosotros</h2>
       {info.map((x) => (
-        <Info text={x.text} info={x.id} />
+        <Info key={x.id} text={x.text} info={x.id} />
       ))}
     </div>
   );

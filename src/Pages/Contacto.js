@@ -10,9 +10,9 @@ const Contacto = () => {
         method="POST"
         action="https://getform.io/f/3f773918-1d3c-4386-b62d-d3d4e5256f7a"
       >
-        <label for="Nombre">Nombre</label>
+        <label htmlFor="Nombre">Nombre</label>
         <input id="Nombre" name="Nombre" className={styles.Input}></input>
-        <label for="Email">Email</label>
+        <label htmlFor="Email">Email</label>
         <input
           id="Email"
           name="Email"
